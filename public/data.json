@@ -1,50 +1,38 @@
 [
     {
-        "bay" : "001",
-        "aisle" : "01",
-        "answer1" : "NA",
-        "answer2" : "NA",
-        "answer3" : "NA",
-        "done" : "No"
+        "bay" : "01-001",
+        "traffic" : "Low",
+        "time" : 20,
+        "lastServiced" : "2020-08-28"
     },
     {
-        "bay" : "002",
-        "aisle" : "01",
-        "answer1" : "NA",
-        "answer2" : "NA",
-        "answer3" : "NA",
-        "done" : "No"
+        "bay" : "01-002",
+        "traffic" : "Medium",
+        "time" : 15,
+        "lastServiced" : "2020-09-02"
     },
     {
-        "bay" : "003",
-        "aisle" : "01",
-        "answer1" : "NA",
-        "answer2" : "NA",
-        "answer3" : "NA",
-        "done" : "No"
+        "bay" : "01-003",
+        "traffic" : "High",
+        "time" : 30,
+        "lastServiced" : "2020-09-01"
     },
     {
-        "bay" : "004",
-        "aisle" : "01",
-        "answer1" : "NA",
-        "answer2" : "NA",
-        "answer3" : "NA",
-        "done" : false
+        "bay" : "01-004",
+        "traffic" : "High",
+        "time" : 20,
+        "lastServiced" : "2020-09-01"
     },
     {
-        "bay" : "005",
-        "aisle" : "01",
-        "answer1" : "NA",
-        "answer2" : "NA",
-        "answer3" : "NA",
-        "done" : false
+        "bay" : "01-005",
+        "traffic" : "Low",
+        "time" : 30,
+        "lastServiced" : "2020-08-29"
     },
     {
-        "bay" : "006",
-        "aisle" : "01",
-        "answer1" : "NA",
-        "answer2" : "NA",
-        "answer3" : "NA",
-        "done" : false
+        "bay" : "01-006",
+        "traffic" : "Medium",
+        "time" : 10,
+        "lastServiced" : "2020-08-30"
     }
 ]

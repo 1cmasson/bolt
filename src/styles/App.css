@@ -1,0 +1,45 @@
+.add-bay .card-body {
+  display: none;
+}
+
+.bay-addheading {
+  cursor: pointer;
+  user-select: none;
+}
+
+.bay-list {
+  font-size: 1.1em;
+}
+
+.bay-list .bay-item {
+  border-bottom: 1px dotted gray;
+}
+
+.bay-list .bay-item:last-child {
+  border-bottom: none;
+}
+
+.bay-list .bay-name {
+  font-weight: 600;
+  color:  rgb(192, 95, 15); /*Home Depot Orange*/
+  font-size: 1.3em;
+  line-height: 100%;
+}
+
+.bay-list .label-item {
+  font-weight: 600;
+  color: #667b82;
+}
+
+.bay-list .bay-date {
+  font-style: italic;
+}
+
+.bay-list .bay-notes {
+  line-height: 120%;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color:  rgb(192, 95, 15); /*Home Depot Orange*/
+}
