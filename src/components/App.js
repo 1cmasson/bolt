@@ -34,6 +34,10 @@ function App(){
     fetchData();
   },[]);
 
+  const searchBays = (query) =>{
+    setQuery(query);
+  }
+
   const changeOrder = (order, dir) =>{
     setOrderBy(order);
     setOrderDirection(dir);
@@ -98,7 +102,8 @@ function App(){
             <SearchBays
               orderBy = {orderBy}
               orderDirection = {orderDirection}
-              changeOrder={changeOrder}
+              changeOrder ={changeOrder}
+              searchBays = {searchBays}
             />
             
             <ListBays 

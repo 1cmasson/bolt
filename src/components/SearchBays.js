@@ -11,6 +11,7 @@ function SearchBays(props){
               type="text"
               className="form-control"
               aria-label="Search Bay"
+              onChange = { e=> props.searchBays(e.target.value)}
             />
             <div className="input-group-append">
               <button

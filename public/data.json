@@ -1,37 +1,37 @@
 [
     {
         "bay" : "01-001",
-        "traffic" : "Low",
+        "traffic" : "low",
         "time" : 20,
         "lastServiced" : "2020-08-28"
     },
     {
         "bay" : "01-002",
-        "traffic" : "Medium",
+        "traffic" : "medium",
         "time" : 15,
         "lastServiced" : "2020-09-02"
     },
     {
         "bay" : "01-003",
-        "traffic" : "High",
+        "traffic" : "high",
         "time" : 30,
         "lastServiced" : "2020-09-01"
     },
     {
         "bay" : "01-004",
-        "traffic" : "High",
+        "traffic" : "high",
         "time" : 20,
         "lastServiced" : "2020-09-01"
     },
     {
         "bay" : "01-005",
-        "traffic" : "Low",
+        "traffic" : "low",
         "time" : 30,
         "lastServiced" : "2020-08-29"
     },
     {
         "bay" : "01-006",
-        "traffic" : "Medium",
+        "traffic" : "medium",
         "time" : 10,
         "lastServiced" : "2020-08-30"
     }
