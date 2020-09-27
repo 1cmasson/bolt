@@ -87,8 +87,8 @@ function App(){
   } );
 
   return(
-
-  <main className="page bg-white" id="petratings">
+    
+    <main className="page bg-white" id="petratings">
     <div className="container">
       <div className="row">
         <div className="col-md-12 bg-white">
