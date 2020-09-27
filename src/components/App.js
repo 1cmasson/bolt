@@ -15,11 +15,13 @@ function App(){
   const [orderDirection, setOrderDirection] = useState('des');
   const [query, setQuery] = useState('');
   
+  // reading data from data.json file
   useEffect(() => {
     const fetchData = async() =>{
       const file = await fetch("data.json")
       .then( response => response.json())
       
+      // setting up last index state
       let bayIndex = 0;
       const index = file.map( bay => {
         bay.bayId = bayIndex;
@@ -34,15 +36,18 @@ function App(){
     fetchData();
   },[]);
 
+  // using props from searchbays to set the query for the search
   const searchBays = (query) =>{
     setQuery(query);
   }
 
+  // using props from searchbays to set the direction and order of list for the sort
   const changeOrder = (order, dir) =>{
     setOrderBy(order);
     setOrderDirection(dir);
   }
 
+  //resetting the data to add a bay to the list
   const addBay = (bay) =>{
     let tempBay = data;
     bay.bayId = lastIndex;
@@ -51,31 +56,37 @@ function App(){
     setLastIndex(lastIndex + 1);
   }
 
+  // resetting the data to delete a bay from the list
   const deleteBay = (bay) =>{
     let tempBays = data;
     tempBays = without(tempBays,bay);
     setData(tempBays);
   }
 
+  // this is a toggle button for the drop down menu for the add bays tab
   const toggleForm = () => {
     setFormDisplay(!formDisplay);
   }
 
-  let order;
+  let order; // order of bays 
 
-  let filteredBays = data;
+  let filteredBays = data; // filter used on bays
+
+  // giving values for ascending and descending order for the sort
   if(orderDirection === 'asc'){
     order = 1;
   }else{
     order = -1;
   }
 
+  // sorting and searching in the application
   filteredBays = filteredBays.sort((a,b) => {
     
+    //sorting data values
     if(a[orderBy] <
       b[orderBy]){ return -1 * order;}
       else{ return 1 * order;}
-  }).filter(item =>{
+  }).filter(item =>{ // searching for query
       return(
         item['bay']
         .toLowerCase()

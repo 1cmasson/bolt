@@ -2,12 +2,15 @@ import React ,{useState} from 'react';
 import {FaPlus} from 'react-icons/fa';
 
 function AddBays(props){
+    // states for each input in add bays drop down form
     const[bay, setBay] = useState('');
     const[traffic, setTraffic] = useState('');
     const[time, setTime] = useState('');
     const[lastServiced, setService] = useState('');
 
+    // handle event to submit form
     const handleSubmit = (e) =>{
+      //submitting form
       e.preventDefault();
       let tempBay ={
         bay: bay,
@@ -17,7 +20,7 @@ function AddBays(props){
       }
       
       props.addBay(tempBay);
-      
+      // empting out the form after being completed
       setBay('');
       setTraffic('');
       setTime('');
@@ -31,6 +34,7 @@ function AddBays(props){
         <div className={
             "card textcenter mt-3 " + 
             (props.formDisplay ? '':'add-bay')
+            //this is to drop down the menu based on a click the add bays tab
         }>
           <div 
           className="bay-addheading card-header bg-primary text-white"
