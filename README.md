@@ -1,5 +1,5 @@
 ## Bay Order List Tracker (BOLT)
-An application to organize and order a list of bays with a Home Depot store.
+An application to organize and order a list of bays within a Home Depot store.
 
 ## How does this help Home Depot's MET team?
 MET associates are in charge of finishing a certain amount of bays every week. Throughout the day, MET associates help customers and organize the store. BOLT provides data on the time it takes to get a bay done, when the bay was last serviced, and what level of traffic is going to that bay. For MET associates, these data points are important because it helps strategize what bays should be done and in what order. This increases efficiency in finishing the weekly bay list for MET team.
