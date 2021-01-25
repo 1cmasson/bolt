@@ -1,6 +1,7 @@
 body {
   font-weight: 200;
-  background-color: rgb(192, 95, 15); /*Home Depot Orange*/
+  background-color: #FA6304; /*Home Depot Orange*/
+
 }
 
 header a,
@@ -14,6 +15,6 @@ footer {
 
 .bg-primary,
 .btn-primary {
-  background-color: rgb(192, 95, 15) !important; /*Home Depot Orange*/
+  background-color: #FA6304 !important; /*Home Depot Orange*/
   border: inherit;
 }

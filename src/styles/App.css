@@ -21,7 +21,7 @@
 
 .bay-list .bay-name {
   font-weight: 600;
-  color:  rgb(192, 95, 15); /*Home Depot Orange*/
+  color: #FA6304; /*Home Depot Orange*/
   font-size: 1.3em;
   line-height: 100%;
 }
@@ -41,5 +41,5 @@
 
 .dropdown-item.active,
 .dropdown-item:active {
-  background-color:  rgb(192, 95, 15); /*Home Depot Orange*/
+  background-color: #FA6304; /*Home Depot Orange*/
 }

@@ -129,7 +129,7 @@ function App(){
   </main>
 );
     
-};
+}
 
 
 
